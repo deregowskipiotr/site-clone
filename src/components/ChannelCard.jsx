@@ -13,7 +13,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      width: { xs: '326px', md: '320px', },
+      width: { xs: '326px', md: '300px', },
       height: '326px',
       margin: 'auto',
       marginTop
@@ -34,8 +34,8 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
           alt={channelDetail?.snippet?.title}
           sx={{
             borderRadius: "50%",
-            height: "220px",
-            width: "220px",
+            height: "250px",
+            width: "250px",
             mb: 2,
             border: "1px solid grey",
           }}
